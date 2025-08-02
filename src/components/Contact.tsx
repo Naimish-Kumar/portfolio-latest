@@ -26,19 +26,19 @@ const Contact: React.FC = () => {
     {
       icon: MapPin,
       title: 'Location',
-      content: 'San Francisco, CA',
+      content: 'Sector 62 Noida India',
       color: 'purple'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
+      content: '+91 9536824061',
       color: 'cyan'
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'alex@devportfolio.com',
+      content: 'vnaimishkumar@gmail.com',
       color: 'purple'
     }
   ];
