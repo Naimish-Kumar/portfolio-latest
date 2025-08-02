@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         <div className="absolute top-40 right-20 w-32 h-32 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full animate-float-delay blur-sm"></div>
         <div className="absolute bottom-40 left-20 w-16 h-16 bg-gradient-to-r from-purple-600/40 to-pink-500/40 rounded-full animate-float-slow blur-sm"></div>
         <div className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-r from-cyan-400/30 to-purple-600/30 rounded-full animate-float blur-sm"></div>
-        
+
         {/* Additional 3D floating elements */}
         <div className="absolute top-32 left-1/4 transform rotate-45 animate-float-3d">
           <div className="w-12 h-12 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 backdrop-blur-sm border border-purple-400/30 transform rotate-45"></div>
@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         <div className="absolute bottom-32 right-1/4 transform -rotate-45 animate-float-3d-delay">
           <div className="w-16 h-16 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full"></div>
         </div>
-        
+
         {/* Animated grid background */}
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       </div>
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-8 h-1 bg-cyan-400/50 rounded-full"></div>
           </div>
         </div>
-        
+
         {/* Additional 3D elements */}
         <div className="absolute top-1/2 left-16 transform -translate-y-1/2 animate-float-3d">
           <Code2 className="h-12 w-12 text-purple-400/30 transform rotate-12" />
@@ -68,10 +68,10 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-purple-400 animate-fade-in animate-gradient-x">
             Mobile App Developer
           </h1>
-          
+
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-delay">
-            Crafting exceptional mobile experiences with cutting-edge technology. 
-            Specializing in <span className="text-transparent bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text font-semibold">React Native</span>, 
+            Crafting exceptional mobile experiences with cutting-edge technology.
+            Specializing in <span className="text-transparent bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text font-semibold">React Native</span>,
             <span className="text-transparent bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text font-semibold"> Flutter</span>, and native development.
           </p>
 
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
               <Download className="h-5 w-5 group-hover:animate-bounce" />
               <span className="relative z-10">Download Resume</span>
             </button>
-            
+
             <div className="flex items-center space-x-4">
               <a href="https://github.com/Naimish-Kumar" className="group p-3 bg-gray-800/50 backdrop-blur-sm rounded-full hover:bg-purple-500/20 transition-all duration-300 transform hover:scale-110 hover:rotate-12 border border-purple-500/30">
                 <Github className="h-6 w-6 text-gray-300 group-hover:text-purple-400 transition-colors" />
@@ -89,9 +89,13 @@ const Hero: React.FC = () => {
               <a href="https://www.linkedin.com/in/naimish-kumar-verma-9b88731b9/" className="group p-3 bg-gray-800/50 backdrop-blur-sm rounded-full hover:bg-cyan-500/20 transition-all duration-300 transform hover:scale-110 hover:rotate-12 border border-cyan-500/30">
                 <Linkedin className="h-6 w-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
               </a>
-              <a href="vnaimishkumar@gmail.com" className="group p-3 bg-gray-800/50 backdrop-blur-sm rounded-full hover:bg-purple-500/20 transition-all duration-300 transform hover:scale-110 hover:rotate-12 border border-purple-500/30">
+              <a
+                href="mailto:vnaimishkumar@gmail.com"
+                className="group p-3 bg-gray-800/50 backdrop-blur-sm rounded-full hover:bg-purple-500/20 transition-all duration-300 transform hover:scale-110 hover:rotate-12 border border-purple-500/30"
+              >
                 <Mail className="h-6 w-6 text-gray-300 group-hover:text-purple-400 transition-colors" />
               </a>
+
             </div>
           </div>
 

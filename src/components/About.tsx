@@ -34,7 +34,7 @@ const About: React.FC = () => {
               <h3 className="text-2xl font-bold text-white mb-4 flex items-center space-x-2">
                 <Sparkles className="h-6 w-6 text-purple-400" />
                 <span>
-                  Hello! I'm Alex Developer
+                  Hello! I'm Naimish Kumar
                 </span>
               </h3>
               <p className="text-gray-300 leading-relaxed">
