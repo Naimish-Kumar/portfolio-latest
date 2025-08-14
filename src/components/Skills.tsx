@@ -112,8 +112,8 @@ const Skills: React.FC = () => {
             
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'Redux', 'GraphQL', 'AWS', 'Docker', 'Jest', 'Cypress',
-                'Git', 'Jira', 'Figma', 'Adobe XD', 'Sketch', 'Zeplin'
+                'Kotlin', 'Swift', 'Android', 'Docker', 'React-native', 'Laravel',
+                'Git', 'Bitbucket', 'Figma', 'Adobe XD', 'Sketch', 'Firebase'
               ].map((tech) => (
                 <div
                   key={tech}
