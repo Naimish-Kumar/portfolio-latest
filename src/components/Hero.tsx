@@ -76,11 +76,16 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-delay-2">
-            <button className="group relative bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white px-8 py-4 rounded-full font-semibold transition-all duration-500 transform hover:scale-110 hover:shadow-2xl flex items-center space-x-2 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></div>
-              <Download className="h-5 w-5 group-hover:animate-bounce" />
-              <span className="relative z-10">Download Resume</span>
-            </button>
+            <a
+              href="/resume.pdf"
+              download="Naimish_Verma_Resume.pdf"
+            >
+              <button className="group relative bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white px-8 py-4 rounded-full font-semibold transition-all duration-500 transform hover:scale-110 hover:shadow-2xl flex items-center space-x-2 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></div>
+                <Download className="h-5 w-5 group-hover:animate-bounce" />
+                <span className="relative z-10">Download Resume</span>
+              </button>
+            </a>
 
             <div className="flex items-center space-x-4">
               <a href="https://github.com/Naimish-Kumar" className="group p-3 bg-gray-800/50 backdrop-blur-sm rounded-full hover:bg-purple-500/20 transition-all duration-300 transform hover:scale-110 hover:rotate-12 border border-purple-500/30">
